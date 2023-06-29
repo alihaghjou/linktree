@@ -72,3 +72,7 @@ section > a:hover::before{
 .under:hover::before {
   transform: scaleX(1);
 }
+
+.header {
+  @apply border-b-2 border-b-slate-800 p-2 m-1 text-center md:text-xl flex items-center justify-between
+}
