@@ -29,7 +29,7 @@ export default function Home() {
           Linkedin
         </Link>
         <Link
-          href={"https://www.instagram.com"}
+          href={"https://instagram.com/alii.haghjou?igshid=NTc4MTIwNjQ2YQ=="}
           target="_blank"
           className="flex items-center justify-center gap-2"
         >
