@@ -5,10 +5,10 @@ import icon from "../public/icon.png"
 const Header = () => {
   return (
     <header className="header">
-      <Image src={icon} alt="icon" width={64} height={64} className="rounded-full" />
-      <div className="flex gap-4 items-center">
-        <Link href={"/"} className="hover:text-gray-600">Home</Link>
-        <Link href={"/about"} className="hover:text-gray-600">About</Link>
+      <Image src={icon} alt="icon" width={64} height={64} className="icon" />
+      <div>
+        <Link href={"/"}>Home</Link>
+        <Link href={"/about"}>About</Link>
       </div>
     </header>
   );
