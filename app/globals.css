@@ -6,7 +6,7 @@ body {
   @apply bg-gradient-to-r from-[#757F9A] to-[#D7DDE8] text-gray-800
 }
 
-a {
+section > a {
   background-image: linear-gradient(
     to right,
     #031820,
@@ -22,7 +22,7 @@ a {
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
-a:before{
+section > a:before{
   content: '';
   background: #335866;
   display: block;
@@ -34,10 +34,10 @@ a:before{
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+section > a:hover {
  background-position: 0;
 }
 
-a:hover::before{
+section > a:hover::before{
   width: 100%;
 }
