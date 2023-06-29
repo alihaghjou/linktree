@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import vercel from "../public/vercel.svg";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -23,6 +27,14 @@ export default function Home() {
         >
           <AiFillLinkedin size={32} />
           Linkedin
+        </Link>
+        <Link
+          href={"https://www.instagram.com"}
+          target="_blank"
+          className="flex items-center justify-center gap-2"
+        >
+          <AiOutlineInstagram size={32} />
+          Instagram
         </Link>
       </section>
     </main>

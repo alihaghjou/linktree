@@ -6,6 +6,10 @@ body {
   @apply bg-gradient-to-r from-[#757F9A] to-[#D7DDE8] text-gray-800
 }
 
+main {
+  @apply h-screen
+}
+
 section > a {
   background-image: linear-gradient(
     to right,
@@ -40,4 +44,31 @@ section > a:hover {
 
 section > a:hover::before{
   width: 100%;
+}
+
+.under {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.under:hover {
+  color: #000;
+}
+
+.under::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.under:hover::before {
+  transform: scaleX(1);
 }
