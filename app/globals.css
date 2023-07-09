@@ -74,7 +74,7 @@ section > a:hover::before{
 }
 
 .header {
-  @apply border-b-2 border-b-slate-800 p-2 m-1 text-center md:text-xl flex items-center justify-between
+  @apply border-b-2 border-b-slate-800 p-2 m-1 text-center md:text-xl flex items-center gap-4
 }
 
 .icon {
